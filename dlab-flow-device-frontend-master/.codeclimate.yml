@@ -1,0 +1,11 @@
+version: "2"
+exclude_patterns:
+  - "tests/*"
+  - "node_modules/*"
+engines:
+  duplication:
+    enabled: true
+ratings:
+  paths:
+    - "**/*.js"
+    - "**/*.py"
