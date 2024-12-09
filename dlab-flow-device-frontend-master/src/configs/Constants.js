@@ -1,0 +1,6 @@
+export const baseURL = {
+    KEYCLOAK_URL: process.env.REACT_APP_KEYCLOAK_URL,
+    KEYCLOAK_REALM: process.env.REACT_APP_KEYCLOAK_REALM,
+    KEYCLOAK_CLIENT_ID: process.env.REACT_APP_KEYCLOAK_CLIENT_ID,
+    API_URL: process.env.REACT_APP_API_URL
+};

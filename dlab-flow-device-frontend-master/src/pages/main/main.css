@@ -1,0 +1,11 @@
+/* BackgroundLayout.css 내에 */
+.registerButton, .NextButton {
+    background-color: grey; /* !important를 제거하고 CSS 우선순위에 따라 적용 */
+    color: black;
+}
+
+.divider {
+    height: 60px;
+    border-top: 1px solid black;
+    margin: 20px 0;
+}
